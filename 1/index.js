@@ -11,7 +11,7 @@ Check.addEventListener("click", ()=>{
         cont = num_1 + i
         num_1 += i;
     }
-    Texto.textContent = cont;
+    Texto.textContent = cont + " ";
     Num.value = " "
 
 })
